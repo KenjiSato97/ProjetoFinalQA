@@ -12,6 +12,7 @@
   "devDependencies": {
     "cypress": "^15.7.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
+<<<<<<< HEAD
   },
   "dependencies": {
     "acorn": "^7.4.1",
@@ -439,4 +440,7 @@
     "url": "https://github.com/KenjiSato97/ProjetoFinalQA/issues"
   },
   "homepage": "https://github.com/KenjiSato97/ProjetoFinalQA#readme"
+=======
+  }
+>>>>>>> 81bbfbcb0e60e0efd7e97a7af7494bf22c2eed38
 }
