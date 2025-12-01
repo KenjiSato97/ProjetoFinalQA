@@ -14,8 +14,3 @@ it('Pesquisar por Instagram', function() {
   cy.get('#portal-footer a[href="https://www.instagram.com/governodobrasil"]').click();
   
 });
-
-it('Erro de Login', function() {
-  cy.visit('https://www.gov.br/pt-br')
-  
-});
