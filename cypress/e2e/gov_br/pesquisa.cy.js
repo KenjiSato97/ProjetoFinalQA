@@ -10,10 +10,16 @@ it('Pesquisar sobre INSS', function() {
   
 });
 
-it('Pesquisar por Instagram', function() {
-  cy.get('button.reject-all').click();
-  cy.get('#portal-footer a[href="https://www.instagram.com/governodobrasil"]').click();
-  
-});
+  it('Testar numero maximo de caracteres', function() {
+    const maxLength = 200000;
+    const longText = 'asr'.repeat(maxLength);
+
+    cy.get('#searchtext-input')
+      .invoke('val', longText)
+      .trigger('input');
+    
+    cy.get('#searchtext-input').type('{enter}');
+
+  });
  
 })
